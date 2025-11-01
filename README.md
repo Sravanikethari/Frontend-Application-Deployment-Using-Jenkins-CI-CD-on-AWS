@@ -128,3 +128,21 @@ and click on add container and select Tomcat 9.x Remote
 <img width="2860" height="1534" alt="image" src="https://github.com/user-attachments/assets/0e1f4a8f-9c6e-4f7f-9649-8ca0602b0a70" />
 Now add the tomcat credentials, click on Add select Jenkins
 
+<img width="2256" height="1430" alt="image" src="https://github.com/user-attachments/assets/be052c13-6ae2-4ff8-b67d-8241204562d1" />
+
+Now click on Add and select the credentials and enter the tomcat url
+
+<img width="2724" height="1550" alt="image" src="https://github.com/user-attachments/assets/09c3146e-7d58-4c81-b1b9-d962ad8ff0c8" />
+
+Now save the job and click on Build Now, If the build gets success then our application will be deployed on tomcat successfully.
+
+<img width="1594" height="1352" alt="image" src="https://github.com/user-attachments/assets/4992d8f3-600a-4a74-a7b3-49ddac7f5c6b" />
+
+The build is success, Now lets refresh the tomcat page and we will see swiggy app is running
+
+
+<img width="2870" height="1492" alt="image" src="https://github.com/user-attachments/assets/9a8ca7e3-1d3e-45b5-b4fd-e178cbea48ac" />
+
+Open the swiggy app and check the output.
+
+To automate the delivery process, we can also implement Webhooks!.
