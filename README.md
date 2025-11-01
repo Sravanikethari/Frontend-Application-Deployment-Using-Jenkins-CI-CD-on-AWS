@@ -100,4 +100,4 @@ connect the tomcat server and run the script to setup tomcat
 
 Run the below script to setup tomcat
 
-
+- <a href="https://github.com/Sravanikethari/Frontend-Application-Deployment-Using-Jenkins-CI-CD-on-AWS/blob/main/Deploy%20the%20application%20on%20Tomcat%20Server.html">Tomcat</a>
