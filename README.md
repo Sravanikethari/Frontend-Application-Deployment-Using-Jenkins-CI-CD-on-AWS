@@ -155,3 +155,11 @@ To automate the delivery process, we can also implement Webhooks!.
 # Conclusion
 Automating deployments with a CI/CD pipeline helps you save time, minimize errors, and accelerate feature delivery. Deploying Java applications to Tomcat using Jenkins and Maven becomes seamless when approached methodically.
 Adopting CI/CD streamlines workflows, enhances reliability, and accelerates feature delivery—allowing teams to focus on innovation over manual tasks.
+
+🛠️ Author & Community
+This project is maintained by Sravani💡. Your feedback and contributions are welcome!
+
+📧 Connect with me:
+
+GitHub: https://github.com/Sravanikethari
+LinkedIn: https://linkedin.com/in/sravani-k-082838350
