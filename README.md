@@ -72,8 +72,8 @@ Now click on save
 # STEP-5: New Freestyle Job Configuration
 
 
-<img width="2878" height="1574" alt="image" src="https://github.com/user-attachments/assets/f8ec739b-f839-4e7f-ad95-eca6a9e48a1c" />
-Go to Source Code Management and select Git and enter the repo-url (https://github.com/usubbu/one.git)
+![5thstep](https://github.com/user-attachments/assets/e800f4d8-8757-477e-a19e-2badb9fe5bcf)
+
 
 
 <img width="2880" height="1382" alt="image" src="https://github.com/user-attachments/assets/abb0c1ff-d39f-4457-b984-6c815b9ffcd3" />
