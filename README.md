@@ -42,3 +42,62 @@ Tomcat Server
 # STEP-2: Connect Jenkins server and Install Jenkins & GIT
 
 - <a href="https://github.com/Sravanikethari/Frontend-Application-Deployment-Using-Jenkins-CI-CD-on-AWS">Install jenkins & git</a>
+
+Now copy the public-ip of your system and access it with 8080 port.
+
+
+![web](https://github.com/user-attachments/assets/97c8a9ce-fb80-4356-a4a6-a0fd1be16fa7)
+
+# STEP-3: Now Install Deploy to container plugin
+
+Go to Manage Jenkins » Plugins » Available Plugins » Deploy to container
+
+
+<img width="2880" height="764" alt="image" src="https://github.com/user-attachments/assets/dd848c8e-7c27-492b-8c27-89ac098f76bd" />
+
+# STEP-4: Integrate Maven
+
+Go to Manage Jenkins » tools and select maven
+
+under the Maven Installations click on Add Maven
+
+Name: mymaven
+
+Version: default (3.9.9)
+
+
+<img width="2846" height="1542" alt="image" src="https://github.com/user-attachments/assets/29126666-f19c-460d-91d9-111fb375bd70" />
+Now click on save
+
+# STEP-5: Create a Free Style Job
+
+
+<img width="2878" height="1574" alt="image" src="https://github.com/user-attachments/assets/f8ec739b-f839-4e7f-ad95-eca6a9e48a1c" />
+Go to Source Code Management and select Git and enter the repo-url (https://github.com/usubbu/one.git)
+
+
+<img width="2880" height="1382" alt="image" src="https://github.com/user-attachments/assets/abb0c1ff-d39f-4457-b984-6c815b9ffcd3" />
+
+Go to Build Steps and select Invoke top-level Maven targets and select the Maven version as mymaven
+
+Now enter the goal as clean package
+
+
+<img width="2874" height="1566" alt="image" src="https://github.com/user-attachments/assets/be7d351e-59fe-4501-92ad-7f72466b7204" />
+
+Save the job and click on Build Now
+
+
+<img width="1302" height="1094" alt="image" src="https://github.com/user-attachments/assets/5c2a28a0-44b9-4e86-ae74-8e00fa9b1063" />
+If the build gets success, go to workspace and open the target folder, we will get war file
+
+
+<img width="1898" height="1140" alt="image" src="https://github.com/user-attachments/assets/a5d3fa60-4116-444a-9663-91f13698e2b9" />
+
+# STEP-6: Deploy the application on Tomcat Server
+
+connect the tomcat server and run the script to setup tomcat
+
+Run the below script to setup tomcat
+
+
