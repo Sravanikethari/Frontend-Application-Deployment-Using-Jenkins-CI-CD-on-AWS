@@ -108,10 +108,12 @@ Remember the tomcat credentials
 If you wish to modify, change the credentials on above script also.
 Now access the tomcat dashboard with public-ip of tomcat server with 8080 port.
 
-<img width="2852" height="1300" alt="image" src="https://github.com/user-attachments/assets/9e3bf9e6-3935-4d3b-955b-f2a43a6b1f4c" />
+<img width="2852" height="1300" alt="step61" src="https://github.com/user-attachments/assets/e4c4ae66-38ea-435a-861c-4e30807aa1d4" />
+
 Now go to Manager App and enter the credentials, You will get the Tomcat Web Application Manager dashboard.
 
-<img width="2880" height="1460" alt="image" src="https://github.com/user-attachments/assets/0c0fa523-7363-4456-835f-798d18932f7b" />
+<img width="2880" height="1460" alt="step62" src="https://github.com/user-attachments/assets/feeaf709-14a5-4c04-bdd3-c877d7ed5469" />
+
 
 # STEP-7: Integrate Tomcat with Jenkins
 
