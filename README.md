@@ -55,7 +55,7 @@ Go to Manage Jenkins » Plugins » Available Plugins » Deploy to container
 
 <img width="2880" height="764" alt="image" src="https://github.com/user-attachments/assets/dd848c8e-7c27-492b-8c27-89ac098f76bd" />
 
-# STEP-4: Integrate Maven
+# STEP-4: Configure Maven Integration
 
 Go to Manage Jenkins » tools and select maven
 
@@ -69,7 +69,7 @@ Version: default (3.9.9)
 <img width="2846" height="1542" alt="image" src="https://github.com/user-attachments/assets/29126666-f19c-460d-91d9-111fb375bd70" />
 Now click on save
 
-# STEP-5: Create a Free Style Job
+# STEP-5: New Freestyle Job Configuration
 
 
 <img width="2878" height="1574" alt="image" src="https://github.com/user-attachments/assets/f8ec739b-f839-4e7f-ad95-eca6a9e48a1c" />
@@ -156,7 +156,7 @@ To automate the delivery process, we can also implement Webhooks!.
 Automating deployments with a CI/CD pipeline helps you save time, minimize errors, and accelerate feature delivery. Deploying Java applications to Tomcat using Jenkins and Maven becomes seamless when approached methodically.
 Adopting CI/CD streamlines workflows, enhances reliability, and accelerates feature delivery—allowing teams to focus on innovation over manual tasks.
 
-# 🛠️ Author & Community
+# 👨‍💻 Author & Support🛠️
 This project is maintained by Sravani💡. Your feedback and contributions are welcome!
 
 # 📧 Connect with me:
