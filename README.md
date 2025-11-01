@@ -143,7 +143,7 @@ Now save the job and click on Build Now, If the build gets success then our appl
 The build is success, Now lets refresh the tomcat page and we will see swiggy app is running
 
 
-<img width="2870" height="1492" alt="image" src="https://github.com/user-attachments/assets/9a8ca7e3-1d3e-45b5-b4fd-e178cbea48ac" />
+<img width="2870" height="1492" alt="step71" src="https://github.com/user-attachments/assets/75eceeea-5132-4a2d-9e1e-72c601288286" />
 
 Open the swiggy app and check the output.
 
