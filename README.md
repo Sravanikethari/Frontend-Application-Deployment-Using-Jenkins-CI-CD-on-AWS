@@ -48,7 +48,7 @@ Now copy the public-ip of your system and access it with 8080 port.
 
 ![web](https://github.com/user-attachments/assets/97c8a9ce-fb80-4356-a4a6-a0fd1be16fa7)
 
-# STEP-3: Now Install Deploy to container plugin
+# STEP-3: Install the Deploy to Container plugin to enable application deployment.
 
 Go to Manage Jenkins » Plugins » Available Plugins » Deploy to container
 
