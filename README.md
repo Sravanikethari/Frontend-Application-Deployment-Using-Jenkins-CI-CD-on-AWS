@@ -40,15 +40,5 @@ Tomcat Server
 <img width="2386" height="426" alt="image" src="https://github.com/user-attachments/assets/192ba84d-0b4d-4dfa-8b4e-ad31538b42da" />
 
 # STEP-2: Connect Jenkins server and Install Jenkins & GIT
-#STEP-1: INSTALLING GIT
-yum install git -y
 
-#STEP-2: GETTING THE REPO (jenkins.io --> download -- > redhat)
-
-
-yum install java-17-amazon-corretto -y
-yum install jenkins -y
-
-#STEP-4: RESTARTING JENKINS (when we download service it will on stopped state)
-systemctl start jenkins.service
-systemctl status jenkins.service
+- <a href="https://github.com/Sravanikethari/Frontend-Application-Deployment-Using-Jenkins-CI-CD-on-AWS">Install jenkins & git</a>
