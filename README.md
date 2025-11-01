@@ -168,7 +168,10 @@ LinkedIn: https://linkedin.com/in/sravani-k-082838350
 # ⭐ Support the Project
 If you found this project helpful, please consider:
 
+
 •	Starring ⭐ the repository
+
 •	Sharing it with your network
+
 •	Contributing to its improvement
 
