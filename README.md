@@ -149,8 +149,11 @@ To automate the delivery process, we can also implement Webhooks!.
 
 # Best Practices
 •	Maintain a dedicated staging environment to thoroughly test deployments before moving them to production.
+
 •	Integrate automated testing into your CI/CD pipeline to identify and resolve issues early.
+
 •	Harden Jenkins and Tomcat configurations with proper authentication, access controls, and regular security updates.
+
 
 # Conclusion
 Automating deployments with a CI/CD pipeline helps you save time, minimize errors, and accelerate feature delivery. Deploying Java applications to Tomcat using Jenkins and Maven becomes seamless when approached methodically.
