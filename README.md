@@ -101,3 +101,30 @@ connect the tomcat server and run the script to setup tomcat
 Run the below script to setup tomcat
 
 - <a href="https://github.com/Sravanikethari/Frontend-Application-Deployment-Using-Jenkins-CI-CD-on-AWS/blob/main/Deploy%20the%20application%20on%20Tomcat%20Server.html">Tomcat</a>
+
+Remember the tomcat credentials
+•	username**:** tomcat
+•	password**:** admin@123
+If you wish to modify, change the credentials on above script also.
+Now access the tomcat dashboard with public-ip of tomcat server with 8080 port.
+
+<img width="2852" height="1300" alt="image" src="https://github.com/user-attachments/assets/9e3bf9e6-3935-4d3b-955b-f2a43a6b1f4c" />
+Now go to Manager App and enter the credentials, You will get the Tomcat Web Application Manager dashboard.
+
+<img width="2880" height="1460" alt="image" src="https://github.com/user-attachments/assets/0c0fa523-7363-4456-835f-798d18932f7b" />
+
+# STEP-7: Integrate Tomcat with Jenkins
+
+Configure the Jenkins job and select Post Build Actions and select Deploy war/ear to a container
+
+WAR/EAR file: target/*.war
+
+context path: swiggy
+
+<img width="2876" height="1568" alt="image" src="https://github.com/user-attachments/assets/6d1163d2-4495-4494-a121-5fd6fa148e6f" />
+
+and click on add container and select Tomcat 9.x Remote
+
+<img width="2860" height="1534" alt="image" src="https://github.com/user-attachments/assets/0e1f4a8f-9c6e-4f7f-9649-8ca0602b0a70" />
+Now add the tomcat credentials, click on Add select Jenkins
+
