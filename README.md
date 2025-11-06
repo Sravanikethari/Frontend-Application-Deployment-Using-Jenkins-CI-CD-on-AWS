@@ -103,9 +103,9 @@ Run the below script to setup tomcat
 
 Remember the tomcat credentials
 
-•	username : tomcat
+    •	username : tomcat
 
-•	password : admin@123
+    •	password : admin@123
 
 
 If you wish to modify, change the credentials on above script also.
