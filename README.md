@@ -41,6 +41,9 @@ Tomcat Server
 
 # STEP-2: Connect Jenkins server and Install Jenkins & GIT
 
+- <a href="https://github.com/Sravanikethari/Frontend-Application-Deployment-Using-Jenkins-CI-CD-on-AWS/blob/main/GIT%20&%20Jenkins%20setup">GIT & Jenkins setup</a>
+
+
 <img width="1889" height="868" alt="dashboard" src="https://github.com/user-attachments/assets/c3a491fe-238e-4a21-9ac7-36fcae7d5e82" />
 
 Now copy the public-ip of your system and access it with 8080 port.
@@ -48,7 +51,6 @@ Now copy the public-ip of your system and access it with 8080 port.
 # STEP-3: Install the Deploy to Container plugin to enable application deployment.
 
 Go to Manage Jenkins » Plugins » Available Plugins » Deploy to container
-
 
 <img width="1920" height="865" alt="deploy-to-cntr" src="https://github.com/user-attachments/assets/7a389869-2ad7-4988-a8b2-5a269251f33a" />
 
