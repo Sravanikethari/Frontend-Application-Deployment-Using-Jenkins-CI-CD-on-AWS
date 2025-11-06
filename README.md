@@ -102,8 +102,12 @@ Run the below script to setup tomcat
 - <a href="https://github.com/Sravanikethari/Frontend-Application-Deployment-Using-Jenkins-CI-CD-on-AWS/blob/main/Deploy%20the%20application%20on%20Tomcat%20Server.html">Tomcat</a>
 
 Remember the tomcat credentials
+
 •	username : tomcat
+
 •	password : admin@123
+
+
 If you wish to modify, change the credentials on above script also.
 Now access the tomcat dashboard with public-ip of tomcat server with 8080 port.
 
